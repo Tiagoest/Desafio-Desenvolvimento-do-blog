@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
+}
+
+body{
+    color: #dadada;
+    height: 100dvh;
+    background-color: #090726;
+}
+
+a{
+    color: #3c77ff;
+}
+/* ========================== HEADER ========================== */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.1rem;
+    /* position: fixed; */
+    width: 100%;
+    background-color: #090726;
+}
+
+.logo h1{
+    color: #0377e4;
+}
+.navigation ul{
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+.navigation ul li a{
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navigation ul li img{
+    height: 30px;
+    background-color: #fff;
+    margin-right: 11rem;
+    border-radius: 50px;
+}
+
+.navigation ul li:nth-child(1) .inicio{
+    color: #3c77ff;
+}
+
+/* ========================== MAIN ========================== */
+
+main{
+    height: calc(100dvh - 1.1rem);
+}
+
+main .area{
+    background-color: #172943;
+    height: 23dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.4rem;
+}
+
+main .area p{
+    color: #61669a;
+}
+
+main .area button{
+    background-color:#3c77ff;
+    color: #fff;
+    padding: .6rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px ;
+    cursor: pointer;
+}
+
+/* ========================== ARTIGOS ========================== */
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem 10rem;
+    gap: 3rem;
+}
+
+.cards .col{
+    background-color:#172943;
+    border-radius: 10px;
+    max-width: 20dvw;
+    height: 60dvh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.cards .col img{
+    align-items: center;
+    border-radius: 10px;
+    height: 10rem;
+    width: initial;
+
+}
+
+.read{
+    background-color: #090726;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin-top: auto;
+    padding: .7rem;
+}
+/* ========================== HOVER ========================== */
+
+.area button:hover{
+    background-color: #2150be;
+    transition: .3s;
+}
+
+.read:hover{
+    background-color: #453f96;
+    color: #fff;
+    transition: .3s;
+}
+
+/* =================== ARTIGOS ===================== */
+
+main{
+    height: calc(100dvh - 1.1rem);
+}
+
+main .artsearch .area{
+    background-color: #172943;
+    height: 20dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.4rem;
+}
+
+main .artsearch .area p{
+    color: #61669a;
+}
+
+main .artsearch .search{
+    height: 10dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}
+
+main .artsearch .search input{
+    padding: .7rem;
+    border-radius: 5px;
+    width: 20%;
+    border: none;
+    outline: none;
+}
+
+main .artsearch select{
+    padding: .7rem;
+    border-radius: 5px;
+    color: #dadada;
+    background-color: #172943;
+    border: none;
+    
+}
+
+a{
+    color: #3c77ff;
+}
+
+/* ========================== COLUMNS (geral, 1 & 2) ========================== */
+
+.container-colum{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 10rem;
+    gap: 3rem;
+}
+
+.container-colum .col{
+    background-color:#172943;
+    border-radius: 10px;
+    max-width: 20dvw;
+    height: 60dvh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.container-colum .col img{
+    align-items: center;
+    border-radius: 10px;
+    height: 10rem;
+    width: initial;
+
+}
+
+.read{
+    background-color: #090726;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin-top: auto;
+    padding: .7rem;
+}
+
+/* ========================== COLUMN 3 ========================== */
+
+.col3 .categs{
+    display: flex;
+    flex-direction: column;
+    gap: .9rem;
+
+}
+
+.col3 .categs hr{
+    border: .1px solid #6e6e6e;
+}
+
+.col3 .artpop{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* ========================== HOVER ========================== */
+
+.read:hover{
+    background-color: #453f96;
+    color: #fff;
+    transition: .3s;
+}
+
+/* ========================== CATEGORIAS ========================== */
+
+main{
+    height: calc(100dvh - 1.1rem);
+}
+
+main .area{
+    background-color: #172943;
+    height: 23dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.4rem;
+}
+
+main .area p{
+    color: #61669a;
+}
+
+/* ========================== CATEGORIAS ========================== */
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem;
+}
+
+.categs{
+    background-color:#172943;
+    border-radius: 10px;
+    min-width: 15dvw;
+    height: 30dvh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.categs h1{
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.categs p{
+    color: #61669a;
+}
+
+.read{
+    background-color: #090726;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin-top: auto;
+    padding: .7rem;
+}
+
+/* ========================== HOVER ========================== */
+
+.read:hover{
+    background-color: #453f96;
+    color: #fff;
+    transition: .3s;
+}
+
+
+/* ========================== SOBRE ========================== */
+
+main{
+    height: calc(100dvh - 1.1rem);
+}
+
+main .area{
+    background-color: #172943;
+    height: 23dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.4rem;
+}
+
+main .area p{
+    color: #61669a;
+}
+
+
+/* ========================== ABOUT ========================== */
+
+main .about{
+    background-color: #172943;
+    height: 40dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 8rem;
+    border-radius: 10px;
+}
+
+.introducao, .criacao, .equipe
+{
+    background-color: #090726;
+    height: 30dvh;
+    margin: 1rem;
+    border-radius: 10px;
+    padding: 1.2rem;
+    width: 40dvw;
+    gap: 2rem;
+}
+
+.introducao p, .criacao p, .equipe li{
+    color: #61669a;
+    display: flex;
+}
